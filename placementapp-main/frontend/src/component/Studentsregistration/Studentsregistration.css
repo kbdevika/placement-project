@@ -1,0 +1,53 @@
+.registration-box {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-heading {
+    text-align: center;
+    color: blue;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Style for specific form fields */
+  .registration-form label:nth-child(1) input,
+  .registration-form label:nth-child(2) input {
+    font-family: "Times New Roman", serif; /* Change font for Name and Department fields */
+  }
+  
+  .registration-form label:nth-child(3) input,
+  .registration-form label:nth-child(4) input {
+    font-family: "Courier New", monospace; /* Change font for email and password fields */
+  }
+  
+  .registration-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .registration-button:hover {
+    background-color: #0056b3;
+  }
+  

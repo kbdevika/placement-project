@@ -1,0 +1,39 @@
+.gradient-custom {
+    background: #65f6b2;
+  
+    background: -webkit-linear-gradient(
+      to right bottom,
+      rgb(153, 250, 253),
+      rgb(133, 151, 253)
+    );
+  
+    background: linear-gradient(
+      to right bottom,
+      rgb(153, 250, 253),
+      rgb(133, 151, 253)
+    );
+  }
+  
+  .edit-button,
+  .upload-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover,
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-button input[type="file"] {
+    display: none;
+  }

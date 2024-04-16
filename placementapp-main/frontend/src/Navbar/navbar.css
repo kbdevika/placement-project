@@ -1,0 +1,11 @@
+.navbar .nav-link {
+  color: #0b0658;
+  font-size: 1.2rem;
+  margin-right: 3rem;
+  margin-left: 5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.navbar .nav-link:hover {
+  color: #1609c9;
+}

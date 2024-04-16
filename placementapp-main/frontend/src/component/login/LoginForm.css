@@ -1,0 +1,22 @@
+/* LoginForm.css */
+.box-container {
+    width: 100%; /* Set the width to 100% */
+    max-width: 400px; /* Set a maximum width to avoid it stretching too wide */
+    margin: 0 auto;
+    margin-top: 3rem; /* Center the box horizontally */
+    padding: 20px; /* Add padding for spacing inside the box */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-family: 'Open Sans', 'Helvetica Neue';
+    color: blue;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .submit-button {
+    width: 100%;
+  }
+  

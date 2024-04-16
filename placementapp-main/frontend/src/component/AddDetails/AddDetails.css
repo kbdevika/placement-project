@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center align the container horizontally */
+  }
+  
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue; /* Set border color to blue */
+    padding: 20px;
+    width: 300px; /* Increase width */
+    min-height: 300px; /* Increase height */
+  }
+  
+  .link-item {
+    padding: 10px 20px; /* Increase padding */
+    text-align: center; /* Center align the text */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  .link-item:not(:last-child) {
+    border-bottom: 2px solid blue; /* Increase border thickness between links */
+  }
+  
+  
+  
+  
+  

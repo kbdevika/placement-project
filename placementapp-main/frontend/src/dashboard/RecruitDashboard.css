@@ -1,0 +1,43 @@
+
+.Recruit h1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3.5rem;
+  font-style: oblique;
+  font-weight: 500;
+  font: optional;
+  background: rgba(239, 248, 239, 0.37);
+  color: rgb(7, 7, 116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  background: rgba(239, 248, 239, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.job-button {
+  padding: 20px 80px;
+  margin: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #1b6de9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.job-button:hover {
+  background-color: #10d3d3;
+}
